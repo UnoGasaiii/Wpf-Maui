@@ -1,0 +1,53 @@
+﻿<Window x:Class="LR5.Wpf.ElectronicShop_Kharisov_.EditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR5.Wpf.ElectronicShop_Kharisov_"
+        mc:Ignorable="d"
+        Title="EditProductWindow" Height="550" Width="500">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock HorizontalAlignment="Center" Text="Изменение товара" />
+
+        <StackPanel Grid.Row="1">
+
+            <StackPanel Margin="0, 20">
+                <TextBlock Text="Название" />
+                <TextBox x:Name="TitleTB" />
+            </StackPanel>
+
+            <StackPanel Margin="0,20">
+                <TextBlock Text="Описание" />
+                <TextBox x:Name="DescriptionTB" MinLines="6" />
+            </StackPanel>
+
+            <StackPanel Margin="0,20">
+                <TextBlock Text="Оставшегося количества" />
+                <TextBox x:Name="AmountTB" />
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Button
+                 Margin="10"
+                 Click="UpdateProduct"
+                 Content="обновить" />
+            <Button
+                  Margin="10"
+                  Click="RemoveProduct"
+                  Content="Удалить" />
+            <Button
+                  Margin="10"
+                  Click="closeWindow"
+                  Content="Назад" />
+        </StackPanel>
+
+    </Grid>
+</Window>

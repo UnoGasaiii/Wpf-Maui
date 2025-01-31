@@ -1,0 +1,39 @@
+﻿<Window x:Class="LR5.Wpf.ElectronicShop_Kharisov_.RegWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LR5.Wpf.ElectronicShop_Kharisov_"
+        mc:Ignorable="d"
+        Title="RegWindow" Height="550" Width="500">
+    <Grid>
+        <Border MinWidth="430" MaxWidth="430" Height="532" Background="MediumSeaGreen" VerticalAlignment="Top" Padding="40" CornerRadius="10" >
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Color="Black" ShadowDepth="2"/>
+            </Border.Effect>
+
+            <StackPanel Margin="0,-30,-13,-36">
+                <TextBlock Text="Добро пожаловать!" FontSize="30" FontWeight="Bold" Margin="0 0 0 0" HorizontalAlignment="Center" FontFamily="SEGOE UI" VerticalAlignment="Top"/>
+                <Line   Width="360" X1="1000" Y1="10" X2="1" Y2="10" Stroke="Violet" Height="15" StrokeThickness="1.5" StrokeEndLineCap="Triangle"/>
+                <TextBlock Text="   Данное  окно   предназначено   для    регистрации." FontSize="14" FontWeight="Bold" Margin="0 0 0 0" HorizontalAlignment="Stretch" />
+                <TextBlock Text="Просим зрегестрирваться для пользования сервисм" FontSize="14" FontWeight="Bold" Margin="0 0 0 0" HorizontalAlignment="Stretch" />
+                <Line   Width="360" X1="1000" Y1="10" X2="1" Y2="10" Stroke="Violet" Height="15" StrokeThickness="1.5" StrokeEndLineCap="Triangle"/>
+
+
+                <StackPanel Margin="0 10 0 0" Height="369">
+                    <TextBlock Text="Введите ваше имя" FontSize="16"   HorizontalAlignment="Left"  x:Name="NameBlock" Margin="0 0 0 0"/>
+                    <TextBox x:Name="NameBox" Width="250" Height="25" Margin="0 0 0 5" TextAlignment="Left" Background="PapayaWhip" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Введите ваш телефон" FontSize="16"   HorizontalAlignment="Left"  x:Name="PhoneBlock" Margin="0 4 0 0"/>
+                    <TextBox x:Name="PhoneBox" Width="250" Height="25" Margin="0 0 0 5" TextAlignment="Left" Background="PapayaWhip" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Придумайте логин" FontSize="16"   HorizontalAlignment="Left"  x:Name="LogBlock" Margin="0 4 0 0"/>
+                    <TextBox x:Name="LogBox" Width="250" Height="25" Margin="0 0 0 5" TextAlignment="Left"  Background="PapayaWhip" HorizontalAlignment="Left"/>
+                    <TextBlock Text="Придуймайте пароль" FontSize="16"   HorizontalAlignment="Left"  x:Name="PassBlock" Margin="0 4 0 0"/>
+                    <TextBox x:Name="PassBox" Width="250" Height="25" Margin="0 0 0 5" TextAlignment="Left" Background="PapayaWhip" HorizontalAlignment="Left"/>
+                    <Button HorizontalAlignment="Center" Content="Сохранить" Width="80" Height="25" Background="{x:Null}" BorderThickness="0" FontSize="16"
+                     x:Name="SaveBut" Click="SaveBut_Click" Margin="0 4 0 0"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

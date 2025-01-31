@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|d:\\oleynik\\lr3.wpf.productcatalogdesktop(kharisov)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|d:\\oleynik\\lr3.wpf.productcatalogdesktop(kharisov)\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|d:\\oleynik\\lr3.wpf.productcatalogdesktop(kharisov)\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|solutionrelative:registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|d:\\oleynik\\lr3.wpf.productcatalogdesktop(kharisov)\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B6DFF22-2966-4C96-B985-7C87E0849D82}|LR3.Wpf.ProductCatalogDesktop(Kharisov).csproj|solutionrelative:registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:29:47.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T07:29:47.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegistrationWindow.xaml.cs",
+              "ToolTip": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T07:34:08.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "RegistrationWindow.xaml",
+              "ToolTip": "D:\\Oleynik\\LR3.Wpf.ProductCatalogDesktop(Kharisov)\\RegistrationWindow.xaml",
+              "RelativeToolTip": "RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T07:32:46.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
